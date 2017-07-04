@@ -1,0 +1,227 @@
+
+.site-top-bar {
+    width: 100%;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+    z-index: 30;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    
+}
+.top-nav {
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.container {
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.site-header {
+    position: relative;
+    z-index: 20;
+    height: 100px;
+    overflow: hidden;
+}
+.site-header .header-nav {
+    float: left;
+    width: 850px;
+}
+.site-header .nav-list {
+    position: relative;
+    z-index: 10;
+    float: left;
+    width: 820px;
+    height: 88px;
+    margin: 0;
+    padding: 12px 0 0 30px;
+    list-style-type: none;
+    font-size: 16px;
+}
+.site-header .nav-item {
+    float: left;
+}
+.site-header .nav-item a {
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+}
+.site-header .header-search {
+    float: right;
+    width: 296px;
+    margin-top: 25px;
+}
+.site-header .logo {
+    display: block;
+    width: 55px;
+    float: left;
+    height: 55px;
+    overflow: hidden;
+    margin-top: 22px;
+    left: 0;
+    zoom: 1;
+    background-color: #ff6700;
+}
+.site-header img {
+    width: 55px;
+}
+/*中间部分的菜单*/
+.site-category-list {
+    height: 418px;
+    margin: 0;
+    padding: 18px 0px;
+    overflow: hidden;
+    /*border: 1px solid #ff6700;*/
+    color: #424242;
+    background: #fff;
+    box-sizing: border-box;
+    font-size: 12px;
+}   
+.ul-box {
+    width: 210px;
+    float: left;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+.ul-box ul {
+    background: #333;
+    color: white;
+    opacity: 0.5;
+    border-radius: 0;
+    
+}
+.ul-box a,
+.ul-box li,
+.ul-box a:hover,
+.ul-box li:hover {
+    border-radius: 0;
+}
+
+.ul-box a:hover,
+.ul-box li:hover {
+    background-color: #ff6700!important;
+}
+.site-category-main {
+    overflow: hidden;
+    width: 1226px;
+    height: 418px;
+    position: relative;
+}
+
+.site-category-right {
+    box-sizing: border-box;
+    overflow: hidden;
+    /*border: 1px solid #ff6700;*/
+}
+.site-category {
+    overflow: hidden;
+    width: 100%;
+}
+
+/*四个图片的区域*/
+.home-hero-sub {
+    max-width: 1226px;
+    height: 170px;
+    margin: 20px auto;
+    overflow: auto; 
+    box-sizing: border-box;
+    /*border: 1px soslid #ff6700;*/
+}
+
+.home-hero-sub .sub-box
+{
+    float: left;
+    width: 25%;
+    height: 170px;
+}
+.home-hero-sub .sub-choice {
+     padding-left: 0px;
+     background: #5f5750;
+     height: 155px;
+     color: white;
+}
+
+.home-hero-sub .sub-choice li {
+    width: 33.33%;
+    height: 50%;
+    border: 0.1px solid grey;
+    float: left;
+    margin: 0;
+    padding: 3px;
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center
+}
+.home-hero-sub img {
+    width: 100%;
+    padding-left: 14px;
+}
+
+/*商品的主要介绍页面*/
+.page-main {
+    background: #f5f5f5;
+    width: 1226px;
+}
+
+.page-main .title {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+
+.info-right-box {
+    list-style: none;
+}
+.info-right-box .title{
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    top:-3px;
+    text-align: center;
+}
+.page-main li {
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.info-right-box li {
+    height: 246px;
+    padding: 34px 0 20px
+}
+.info-right-box .img-box {
+    width: 150px;
+    height: 150px;
+}
+.info-right-box img {
+    width: 150px;
+    height: 150px;
+}
+.desc {
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    zoom: 1;
+    color: #b0b0b0;
+}
+.price {
+    margin: 0 10px 10px;
+    text-align: center;
+    color: #ff6700;
+}
