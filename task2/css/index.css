@@ -163,7 +163,9 @@
 /*商品的主要介绍页面*/
 .page-main {
     background: #f5f5f5;
-    width: 1226px;
+    max-width: 1226px;
+    overflow: hidden;
+
 }
 
 .page-main .title {
