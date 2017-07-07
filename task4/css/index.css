@@ -1,12 +1,22 @@
 .flag {
     float: left;    
     width: 3.3rem;
+    height: 5rem;
 }
 .flag img {
-    width: 2.3rem;
+    width: 2.5rem;
 }
 
 .item-section {
     text-align: center; 
     width: 100%;
+}
+.page-title {
+    padding-left: 0.4rem;
+    padding-top:0.1rem;
+    padding-bottom: 0.3rem;
+    font-size: 0.5rem;
+}
+.flag-score {
+    color: grey;
 }

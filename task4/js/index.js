@@ -1,24 +1,9 @@
-// $(function(){
-// 	$.ajax({
-//         type: "GET", 
-//         url: "http://api.douban.com/v2/movie/top250", 
-// 		data:"jsonp",
-        
-// 		success:function(data){
-//              console.log(data); 
-            
-// 		}
-// 	});
-// })
 $(function(){  
     $.getJSON("http://api.douban.com/v2/movie/top250?alt=xd&callback=?", function(data){  
         console.log(data); 
         console.log(data.subjects); 
         var item =data.subjects;
         addData(item);
-        // for (var i = 0; i < 10; i++){
-        //     $
-        // }
     });  
 });
 
@@ -36,8 +21,9 @@ function addData(result){
             +score + "</strong> </div> "
             +"</li>"
         )
-        console.log(obj['images']['medium']);
-        if(index>9)
-        return;
+        if(index>9){
+        console.log(index);
+        return false;
+        }
     })
 }
